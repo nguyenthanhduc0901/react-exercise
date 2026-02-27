@@ -1,0 +1,65 @@
+.user-list {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th {
+  background-color: #f0f0f0;
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+.user-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 8px;
+  font-size: 16px;
+}
+
+.btn-edit {
+  color: #0066cc;
+}
+
+.btn-edit:hover {
+  color: #0052a3;
+}
+
+.btn-delete {
+  color: #cc0000;
+}
+
+.btn-delete:hover {
+  color: #990000;
+}
+
+.no-data {
+  text-align: center;
+  padding: 30px;
+  color: #999;
+}
